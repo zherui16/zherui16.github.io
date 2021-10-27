@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+
+header{
+	font-family: Cabin, sans-serif;
+	font-size: 32px;
+	text-transform: uppercase;
+	color: lightblue;
+	background-color: black;
+	height: 50px;
+
+}
+
+header ul{
+	width: 800px;
+	text-align: center;
+	margin: 5px auto;
+}
+
+header li {
+	display: inline-block;
+	margin: 5px 10px;
+}
+
+.music {
+	background-image: url("https://www.pnas.org/content/pnas/118/4/e2025750118/F1.large.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+main .music h2 {
+	font-size: 45px;
+	text-transform: uppercase;
+	color: hsl(60, 100%, 70%);
+	letter-spacing: 2px;
+	width: 200px;
+	text-align: center;
+	border: 3px solid white;
+	border-radius: 3px;
+	margin: 0 auto;
+	position: relative;
+	top: 45%;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: hsl(60, 100%, 70%);
+}
+
+main .music h2:hover {
+	color: white;
+	background-color: hsl(49, 100%, 50%);  
+}
+
+.music p {
+	position: relative;
+	top: 450px;
+	font-size: 30px;
+	text-align: center;
+}
